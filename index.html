@@ -42,7 +42,7 @@
         <img src="assets/img/profile-img.jpeg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">B Barath Srinivasan</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="twitter"><i class="bx bxl-github"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
@@ -56,7 +56,7 @@
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -118,7 +118,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
+    <!-- <section id="skills" class="skills section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -180,7 +180,7 @@
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
+    </section>End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
@@ -303,8 +303,7 @@
               <a href="https://www.coursera.org/account/accomplishments/verify/D3CC7GZPU9MN?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><h5>University of Michigan</h5></a> <h5>September 2020</h5>
             </div>
             <div class="resume-item">
-              <h4>Web Application Developer</h4>
-              <h4>Google Cloud Digital Leader</h4>
+              <h4>Probability Theory, Statistics, and Exploratory Data Analysis</h4>
               <a href="https://www.coursera.org/account/accomplishments/verify/D847HFQCYEM7?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"><h5>HSE University</h5></a> <h5>October 2020</h5>
             </div>
 
@@ -346,8 +345,8 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-pub">Publication</li>
               <li data-filter=".filter-web">Web</li>
-              <li data-filter=".filter-mobile">Mobile</li>
               <li data-filter=".filter-data">Data Science</li>
             </ul>
           </div>
@@ -355,41 +354,155 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-pub">
             <div class="card h-100">
-              <img src="assets\img\portfolio\p-1.webp" class="card-img-top" alt="Tech Background">
+              <img src="assets\img\portfolio\p-2.webp" class="card-img-top" alt="Tech Background">
               <div class="card-body">
-                <h5 class="card-title">Web project</h5>
-                <p class="card-text">Web Development</p>
+                <h5 class="card-title">AGeES: Automatic Multiple Choice Question (MCQ) Generation from Extractive Summary of Video Lectures Using BertSum</h5>
+                <p class="card-text" >International Conference on Smart Learning Environments (ICSLE) 2023</p>
               </div>
               <div class="card-footer">
-                <a href="https://github.com/yourusername/project1" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+                <a href="https://link.springer.com/chapter/10.1007/978-981-99-5961-7_3" target="_blank" class="btn btn-success" title="GitHub Link"><i <i class="bi bi-box-arrow-up-right"></i> Published</a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-mobile">
+          
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-data">
             <div class="card h-100">
-              <img src="assets/img/tech-background-2.jpg" class="card-img-top" alt="Tech Background">
+              <img src="assets\img\portfolio\p-4.webp" class="card-img-top" alt="Tech Background">
               <div class="card-body">
-                <h5 class="card-title">Mobile Project</h5>
-                <p class="card-text">Mobile App</p>
+                <h5 class="card-title">Dynamic Hand Sign Detection</h5>
+                <p class="card-text" >Using machine learning models to recognize hand gestures of a host appearing in a video and convert into speech</p>
               </div>
               <div class="card-footer">
-                <a href="https://github.com/yourusername/project2" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+                <a href="https://github.com/firaz-bug/Dynamic-Hand-Sign-Detection" target="_blank" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-web">
+            <div class="card h-100">
+              <img src="assets\img\portfolio\p-3.webp" class="card-img-top" alt="Tech Background">
+              <div class="card-body">
+                <h5 class="card-title">CoviProtec</h5>
+                <p class="card-text" >
+                  This platform enables online vaccine booking for individuals and hospitals to manage vaccinations, stock, and appointments efficiently</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/firaz-bug/CoviProtec" target="_blank" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-data">
             <div class="card h-100">
-              <img src="assets/img/tech-background-3.jpg" class="card-img-top" alt="Tech Background">
+              <img src="assets\img\portfolio\p-5.webp" class="card-img-top" alt="Tech Background">
               <div class="card-body">
-                <h5 class="card-title">Data Science Project</h5>
-                <p class="card-text">Data Science</p>
+                <h5 class="card-title">Image Caption Genreation Using Deep Architecture</h5>
+                <p class="card-text" >Using machine learning models along with attention mechanism to identify a given image and generate most appropriate caption for it</p>
               </div>
               <div class="card-footer">
-                <a href="https://github.com/yourusername/project3" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+                <a href="https://github.com/firaz-bug/Image-Caption-Genreation-Using-Deep-Architecture" target="_blank" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-web">
+            <div class="card h-100">
+              <img src="assets\img\portfolio\p-6.webp" class="card-img-top" alt="Tech Background">
+              <div class="card-body">
+                <h5 class="card-title">NEWS Web Application</h5>
+                <p class="card-text" >This news application provides users with the latest updates and breaking news from around the world. It offers a clean and user-friendly interface, allowing users to browse news by categories, search for specific topics, and stay informed with real-time updates</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/firaz-bug/newsapp" target="_blank" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-web">
+            <div class="card h-100">
+              <img src="assets\img\portfolio\p-1.webp" class="card-img-top" alt="Tech Background">
+              <div class="card-body">
+                <h5 class="card-title">Invoice Generator</h5>
+                <p class="card-text">The Invoice Project is a Django web app for creating, managing, and tracking invoices, with features like client management and payment tracking</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/firaz-bug/Invoice-Generator" target="_blank" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-web">
+            <div class="card h-100">
+              <img src="assets\img\portfolio\p-7.webp" class="card-img-top" alt="Tech Background">
+              <div class="card-body">
+                <h5 class="card-title">loan management</h5>
+                <p class="card-text" >
+                  The Loan App is a tool for managing loans, allowing users to apply for loans and track payments, balances, and due dates</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/firaz-bug/loan-management-frontend" target="_blank" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-data">
+            <div class="card h-100">
+              <img src="assets\img\portfolio\p-8.webp" class="card-img-top" alt="Tech Background">
+              <div class="card-body">
+                <h5 class="card-title">University Admit Eligibility Predictor</h5>
+                <p class="card-text" >The application collects user-provided input and combines it with preprocessed student data. The data is passed through machine learning models, including linear and logistic regression, to generate prediction results, which are then displayed to the user</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/firaz-bug/Dynamic-Hand-Sign-Detection" target="_blank" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-data">
+            <div class="card h-100">
+              <img src="assets\img\portfolio\p-9.webp" class="card-img-top" alt="Tech Background">
+              <div class="card-body">
+                <h5 class="card-title">Handwritten number recognization</h5>
+                <p class="card-text" >Neural network model to recognize handwritten numbers</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/firaz-bug/Handwritten-number-recognization-" target="_blank" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-web">
+            <div class="card h-100">
+              <img src="assets\img\portfolio\p-10.webp" class="card-img-top" alt="Tech Background">
+              <div class="card-body">
+                <h5 class="card-title">Membership Registeration REST API</h5>
+                <p class="card-text" >This project is a REST API for managing membership generation, providing endpoints to create, update, and delete memberships. It supports features like user registration, membership tier management, and tracking membership status, ensuring a seamless integration with applications needing membership functionalities</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/firaz-bug/regiteration_api" target="_blank" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-data">
+            <div class="card h-100">
+              <img src="assets\img\portfolio\p-1.webp" class="card-img-top" alt="Tech Background">
+              <div class="card-body">
+                <h5 class="card-title">chatbot</h5>
+                <p class="card-text" >Chatbot created using nltk and tensorflow</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/firaz-bug/chatbot" target="_blank" class="btn btn-primary" title="GitHub Link"><i class="bi bi-github"></i> View on GitHub</a>
               </div>
             </div>
           </div>
@@ -399,53 +512,8 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>
-        </div>
-
-      </div>
-    </section> --><!-- End Services Section
-
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <!-- <section id="testimonials" class="testimonials section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -467,7 +535,7 @@
                 <h3>Saul Goodman</h3>
                 <h4>Ceo &amp; Founder</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
@@ -480,7 +548,7 @@
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
@@ -493,7 +561,7 @@
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
@@ -506,7 +574,7 @@
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
@@ -519,14 +587,14 @@
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>End Testimonials Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -534,7 +602,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Need to reach me urgently? Send a carrier pigeon, smoke signals, or just use the good ol' contact information below!</p>
         </div>
 
         <div class="row" data-aos="fade-in">
@@ -544,55 +612,28 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Hyderabad, Telangana, India</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>bbarathsrinivasan@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+91 8106887771</p>
               </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
             </div>
 
           </div>
-
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243646.90510271673!2d78.24323585499164!3d17.412608637322133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1733658509664!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen></iframe>
           </div>
-
         </div>
 
       </div>
@@ -603,15 +644,12 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed and Developed <a href="">bbarathsrinivasan</a>
       </div>
     </div>
   </footer><!-- End  Footer -->

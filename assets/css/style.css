@@ -257,6 +257,12 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
+#hero .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -526,6 +532,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  height: 480px;
 }
 
 .portfolio #portfolio-flters {
@@ -1094,4 +1101,16 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+.card-text {
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.card-img-top {
+  height: 200px; /* Fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+  object-position: top; /* Display the top part of the image */
+  width: 100%;
 }
